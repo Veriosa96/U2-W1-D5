@@ -1,9 +1,5 @@
-
-body{
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    
+body {
+  margin: 0;
 }
 
 nav {
@@ -14,135 +10,186 @@ nav {
   padding-bottom: 20px;
   border-bottom: 1.5px solid black;
   background-color: #ffc017;
-
 }
 
 .bottoni button {
   border: none;
   background-color: #ffc017;
-  font-size:medium;
-  font-family: 'Spectral', serif;
+  font-size: medium;
+  font-family: "Spectral", serif;
   font-weight: bold;
   cursor: pointer;
-  
 }
 
 button.button-black {
-    background-color: black;
-    color: white;
-    height: 40px;
-    border-radius: 30px;
-    width: 10em;
-    
+  background-color: black;
+  color: white;
+  height: 40px;
+  border-radius: 30px;
+  width: 10em;
 }
 /*-------------------------------------------------*/
-section{
-    background-color: #ffc017;
-    border-bottom: 1.5px solid black;
-    display: flex;
-    justify-content: space-between;
-     height: 500px;
+section {
+  background-color: #ffc017;
+  border-bottom: 1.5px solid black;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
 }
 
-
-
 section h1 {
-    font-family: 'Spectral', serif;
-    font-weight: bold;
-    font-size: 80px;  
-    margin-bottom: -80px;
-
+  font-family: "Spectral", serif;
+  font-weight: bold;
+  font-size: 90px;
+  margin-bottom: 5px;
 }
 
 section div {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin-left: 5em;
-    justify-content: space-evenly; 
-    
-    
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-left: 20em;
+  justify-content: space-evenly;
 }
-
 
 section button {
-    background-color: black;
-    color: white;
-    height: 40px;
-    border-radius: 30px;
-    width: 13rem;
-    margin-top: -50px;
-    cursor: pointer;
+  background-color: black;
+  color: white;
+  height: 40px;
+  border-radius: 30px;
+  width: 13rem;
+  margin-top: -50px;
+  cursor: pointer;
 }
 
- section svg {
-width: 100%;
-height: 100%;
+section svg {
+  width: 100%;
+  height: 100%;
 }
+/*-------------------------------------------------*/
 
-main h4 {
-    margin-left: 80px;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-    
+.trend {
+  margin-left: 20em;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4em;
+  margin-bottom: 0.5em;
 }
 main span {
-    padding-right: 0.5em;
+  padding-right: 0.5em;
+}
+
+/*-------------------------------------------------*/
+#notizie {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20em;
+}
+
+.firstNews {
+  width: 30em;
+}
+.autore img {
+  border-radius: 9px;
+  width: 2em;
+  height: 2em;
+  margin-right: 0.5em;
+}
+
+.autore {
+  display: flex;
+  align-items: center;
+}
+.autore h2 {
+  margin-right: 0.7em;
+  color: rgba(128, 128, 128, 0.315);
+}
+.autore .picture {
+  margin-right: 0.7em;
+  width: 2em;
+  height: 2em;
+  border-radius: 15px;
+}
+
+.autore p {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.contenuto {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -19px;
+}
+
+.titolo {
+  font-weight: bold;
 }
 
 /*-------------------------------------------------*/
 
-.total-news {
-   
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 80px;
-   
+.parte2 {
+  margin-left: 20em;
+  margin-top: 6em;
 }
 
-.total-news div{
-    width: 30em;
-     margin-bottom: 5em;
-     color: gray;
-     display: flex;
-     align-items: center;
+.secondNews img {
+  border-radius: 20px;
+  width: 2em;
+  height: 2em;
 }
 
-.total-news img {
-    width: 1.5em;
-    height: 1.5em;
-    border-radius: 90px 90px 90px 90px;
-    margin-left: 1em;
-    display: flex;    
+.secondNews {
+  display: flex;
+  flex-direction: column;
+  width: 570px;
+  margin-bottom: 3.5em;
 }
 
-main .total-news span {
-    display: flex;
-    flex-wrap: wrap;
+.content {
+  width: 500px;
 }
 
-.total-news h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.5;
-    color: black;
-    display: flex;
-    
+.content p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5em;
+  font-size: 1em;
+  font-weight: bold;
+  color: rgba(128, 128, 128, 0.664);
 }
 
-.total-news p {
-font-family: 'Roboto', sans-serif;
-
-font-weight: bold;
-display: flex;
-color: black;
-margin-left: 0.5em;
+.content span {
+  background-color: #f1f2f3;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: 5px;
 }
 
+.content .bookmark {
+  position: relative;
+  left: 0;
+  cursor: pointer;
+}
 
+.content .star {
+  width: 1.5em;
+  height: 1.5em;
+}
 
+.Pict {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 320px;
+  height: 220px;
+}
